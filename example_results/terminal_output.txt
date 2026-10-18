@@ -1,0 +1,42 @@
+BIM   data\bim\bridge_BIM.obj
+scans bridge_scan_west.laz, bridge_scan_east.laz
+out   outputs
+
+1-3  load, clean, extract the structure
+  step1_load                      ok  (61 s)
+  step2_clean                     ok  (69 s)
+  step3_connected_bridge          ok  (54 s)
+  step3_render_bridge_only        ok  (15 s)
+  step3_render_connected          ok  (9 s)
+4    align (coarse + ICP) and orientation ambiguity check
+  step4_align                     ok  (229 s)
+  step4_fix_twist                 ok  (64 s)
+  step4_rigorous_align            ok  (112 s)
+  step4b_orientation_check        ok  (62 s)
+5-6  deviation profile and heatmaps
+  step5_dz_profile                ok  (20 s)
+  step6_damage_heatmap            ok  (7 s)
+  step6_damage_heatmap_topdown    ok  (6 s)
+7A/7B component matching <-> deck movement model, until the model settles
+  step7a_realign                  ok  (335 s)
+  step7a_component_deviation      ok  (67 s)
+  step7b_global_movement          ok  (7 s)
+       iteration 1: deck movement model changed by -
+  step7a_component_deviation      ok  (71 s)
+  step7b_global_movement          ok  (7 s)
+       iteration 2: deck movement model changed by 4.65 mm
+  step7a_component_deviation      ok  (70 s)
+  step7b_global_movement          ok  (7 s)
+       iteration 3: deck movement model changed by 0.05 mm
+7B   local defects, girder flanges, inspection views
+  step7b_local_defects            ok  (17 s)
+  step7b_girder_flanges           ok  (12 s)
+  step7b_inspection_views         ok  (206 s)
+8    defect list
+  step8_defects                   ok  (1 s)
+9    scoring against the answer key
+  step9_evaluate                  ok  (7 s)
+10   report
+  step10_report                   ok  (39 s)
+
+done in 25.9 min -> outputs\defects.csv, outputs\report.md

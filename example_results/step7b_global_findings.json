@@ -1,0 +1,250 @@
+{
+  "support_movement": {
+    "status": "pier_2 appears lower by 10-16 mm; needs control points to confirm",
+    "reason": "no stable external reference (control points) in this survey, so the levelling has to be anchored to part of the structure itself; a pier is only reported when both reference choices agree on the direction and both exceed 5 mm, and the magnitude is given as the range between them",
+    "evidence": {
+      "supports": [
+        {
+          "support": "abutment_1",
+          "x_m": -0.5,
+          "source": "deck top (surfacing)",
+          "n_stations": 2,
+          "top_mm": -2.7,
+          "top_stations": 2,
+          "underside_mm": -1.3,
+          "underside_stations": 9,
+          "ref_as_aligned_mm": -2.7,
+          "ref_deck_over_abutments_mm": 0.0
+        },
+        {
+          "support": "pier_1",
+          "x_m": 18.0,
+          "source": "deck/girder underside",
+          "n_stations": 10,
+          "top_mm": null,
+          "top_stations": 1,
+          "underside_mm": 2.9,
+          "underside_stations": 10,
+          "ref_as_aligned_mm": 2.9,
+          "ref_deck_over_abutments_mm": 2.0,
+          "verdict": "pier_1: inconclusive (depends on the reference choice)"
+        },
+        {
+          "support": "pier_2",
+          "x_m": 42.0,
+          "source": "deck/girder underside",
+          "n_stations": 9,
+          "top_mm": null,
+          "top_stations": 1,
+          "underside_mm": -10.1,
+          "underside_stations": 9,
+          "ref_as_aligned_mm": -10.1,
+          "ref_deck_over_abutments_mm": -15.5,
+          "verdict": "pier_2 appears lower by 10-16 mm; needs control points to confirm"
+        },
+        {
+          "support": "abutment_2",
+          "x_m": 60.5,
+          "source": "deck top (surfacing)",
+          "n_stations": 2,
+          "top_mm": 9.0,
+          "top_stations": 2,
+          "underside_mm": 9.6,
+          "underside_stations": 9,
+          "ref_as_aligned_mm": 9.0,
+          "ref_deck_over_abutments_mm": 0.0
+        }
+      ],
+      "end_span_slopes": [
+        {
+          "span": "abutment_1 -> pier_1",
+          "slope_mm_per_m": 0.3
+        },
+        {
+          "span": "pier_2 -> abutment_2",
+          "slope_mm_per_m": 1.03
+        }
+      ]
+    },
+    "next_step": "use surveyed control points on stable ground"
+  },
+  "sag_per_span": [
+    {
+      "span_start_m": -1.95,
+      "span_end_m": -0.5,
+      "interior": false,
+      "deepest_mm": -1.1,
+      "at_x_m": -0.95,
+      "n_stations": 2,
+      "threshold_mm": 3.5,
+      "confirmed": false
+    },
+    {
+      "span_start_m": -0.5,
+      "span_end_m": 18.0,
+      "interior": true,
+      "deepest_mm": -3.1,
+      "at_x_m": 17.55,
+      "n_stations": 2,
+      "threshold_mm": 3.5,
+      "confirmed": false
+    },
+    {
+      "span_start_m": 18.0,
+      "span_end_m": 42.0,
+      "interior": true,
+      "deepest_mm": -39.8,
+      "at_x_m": 30.05,
+      "n_stations": 2,
+      "threshold_mm": 3.5,
+      "confirmed": true
+    },
+    {
+      "span_start_m": 42.0,
+      "span_end_m": 60.5,
+      "interior": true,
+      "deepest_mm": -0.9,
+      "at_x_m": 60.3,
+      "n_stations": 2,
+      "threshold_mm": 3.5,
+      "confirmed": false
+    },
+    {
+      "span_start_m": 60.5,
+      "span_end_m": 61.97,
+      "interior": false,
+      "deepest_mm": -1.1,
+      "at_x_m": 60.55,
+      "n_stations": 2,
+      "threshold_mm": 3.5,
+      "confirmed": false
+    }
+  ],
+  "data_problems": [
+    {
+      "x_m": 27.55,
+      "worst_station_disagreement_mm": 2.0,
+      "n_stations": 2
+    },
+    {
+      "x_m": 27.8,
+      "worst_station_disagreement_mm": 2.3,
+      "n_stations": 2
+    },
+    {
+      "x_m": 28.3,
+      "worst_station_disagreement_mm": 2.1,
+      "n_stations": 2
+    },
+    {
+      "x_m": 29.3,
+      "worst_station_disagreement_mm": 2.1,
+      "n_stations": 2
+    },
+    {
+      "x_m": 32.55,
+      "worst_station_disagreement_mm": 2.4,
+      "n_stations": 2
+    },
+    {
+      "x_m": 32.8,
+      "worst_station_disagreement_mm": 2.3,
+      "n_stations": 2
+    },
+    {
+      "x_m": 33.05,
+      "worst_station_disagreement_mm": 2.7,
+      "n_stations": 2
+    },
+    {
+      "x_m": 33.3,
+      "worst_station_disagreement_mm": 2.7,
+      "n_stations": 2
+    },
+    {
+      "x_m": 33.55,
+      "worst_station_disagreement_mm": 2.7,
+      "n_stations": 2
+    },
+    {
+      "x_m": 33.8,
+      "worst_station_disagreement_mm": 6.5,
+      "n_stations": 3
+    },
+    {
+      "x_m": 34.05,
+      "worst_station_disagreement_mm": 6.5,
+      "n_stations": 3
+    },
+    {
+      "x_m": 34.3,
+      "worst_station_disagreement_mm": 6.2,
+      "n_stations": 3
+    },
+    {
+      "x_m": 34.55,
+      "worst_station_disagreement_mm": 5.9,
+      "n_stations": 3
+    },
+    {
+      "x_m": 34.8,
+      "worst_station_disagreement_mm": 5.4,
+      "n_stations": 3
+    },
+    {
+      "x_m": 35.05,
+      "worst_station_disagreement_mm": 4.8,
+      "n_stations": 3
+    },
+    {
+      "x_m": 35.3,
+      "worst_station_disagreement_mm": 4.2,
+      "n_stations": 3
+    },
+    {
+      "x_m": 35.55,
+      "worst_station_disagreement_mm": 3.8,
+      "n_stations": 3
+    },
+    {
+      "x_m": 35.8,
+      "worst_station_disagreement_mm": 2.7,
+      "n_stations": 2
+    },
+    {
+      "x_m": 36.05,
+      "worst_station_disagreement_mm": 2.9,
+      "n_stations": 2
+    },
+    {
+      "x_m": 36.3,
+      "worst_station_disagreement_mm": 3.1,
+      "n_stations": 2
+    },
+    {
+      "x_m": 36.55,
+      "worst_station_disagreement_mm": 3.3,
+      "n_stations": 2
+    },
+    {
+      "x_m": 36.8,
+      "worst_station_disagreement_mm": 3.6,
+      "n_stations": 2
+    },
+    {
+      "x_m": 37.05,
+      "worst_station_disagreement_mm": 3.7,
+      "n_stations": 2
+    },
+    {
+      "x_m": 37.3,
+      "worst_station_disagreement_mm": 3.9,
+      "n_stations": 2
+    },
+    {
+      "x_m": 37.55,
+      "worst_station_disagreement_mm": 4.2,
+      "n_stations": 2
+    }
+  ]
+}

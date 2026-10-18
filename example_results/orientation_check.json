@@ -1,0 +1,49 @@
+{
+  "candidates": {
+    "as_aligned": {
+      "median_mm": 2.76,
+      "p90_mm": 30.17,
+      "inlier_pct": 85.36,
+      "west_tile_median_x_m": 13.78,
+      "east_tile_median_x_m": 44.1
+    },
+    "rotated_180": {
+      "median_mm": 2.79,
+      "p90_mm": 31.28,
+      "inlier_pct": 84.65,
+      "west_tile_median_x_m": 46.22,
+      "east_tile_median_x_m": 15.9
+    }
+  },
+  "relative_median_difference": 0.0109,
+  "tied": true,
+  "chosen": "as_aligned",
+  "decided_by": "external metadata: scan tile names (west/east) + ASSUMPTION that BIM +x runs west to east",
+  "assumption": "BIM +x runs west to east",
+  "transform_applied_to_step4_alignment": [
+    [
+      1.0,
+      6e-06,
+      8e-06,
+      -0.000522
+    ],
+    [
+      -6e-06,
+      1.0,
+      6.5e-05,
+      -0.000153
+    ],
+    [
+      -8e-06,
+      -6.5e-05,
+      1.0,
+      -0.000232
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ]
+}

@@ -1,0 +1,12 @@
+component,element_type,n_points,n_stations,face_width_m,face_height_m,lean_deg,top_offset_mm,twist_deg,fit_rms_mm
+abutment_2_ballast_wall,abutment,3823,7,12.34,1.4,-0.582,14.3,-0.006,2.2
+abutment_2_bank_seat,abutment,11702,7,12.4,1.25,-0.564,12.3,-0.004,1.9
+abutment_1_ballast_wall,abutment,7195,8,12.38,1.42,0.21,-5.2,0.003,1.9
+girder_2_web,girder,54865,6,61.72,0.9,-0.204,3.2,-0.004,2.4
+abutment_1_return_wall_N,abutment,7353,2,3.3,3.3,-0.012,0.7,-0.005,1.1
+abutment_1_return_wall_S,abutment,7694,3,3.32,3.33,0.009,-0.5,0.0,1.1
+pier_1_crosshead,pier,32943,5,11.18,1.31,-0.011,0.3,0.006,2.9
+abutment_1_bank_seat,abutment,28085,8,12.39,1.21,0.01,-0.2,0.003,4.0
+abutment_2_return_wall_N,abutment,7426,5,3.29,3.29,-0.002,0.1,-0.005,1.1
+abutment_2_return_wall_S,abutment,7222,3,3.33,3.3,-0.001,0.0,0.0,1.1
+pier_2_crosshead,pier,27363,7,11.19,1.31,0.002,-0.0,-0.003,1.9

@@ -1,0 +1,67 @@
+id,component,element_type,defect_type,x,y,z,area_m2,max_deviation_mm,stations,confidence,evidence
+D001,deck span 18-42 m,deck (global),in-span sag relative to its own supports,30.05,0.0,,,-39.8,2,high,7B global movement model
+D002,abutment_2_ballast_wall,abutment,"wall tilt: lean -0.58 deg, top displaced +14.3 mm (+ = outward) over a 12.3 x 1.4 m face",61.3,0.0,6.18,17.28,14.3,7,high,"robust plane fit, scatter 2.2 mm"
+D003,abutment_2_bank_seat,abutment,"wall tilt: lean -0.56 deg, top displaced +12.3 mm (+ = outward) over a 12.4 x 1.2 m face",60.5,0.0,4.8,15.5,12.3,7,high,"robust plane fit, scatter 1.9 mm"
+D004,girder_1_bf,girder,local flange deviation (higher than deck movement); flange deformed beyond its matching margin (surface +70 mm from expected),25.56,-4.39,5.7,1.125,69.8,7,high,"7B flange check, 6.2x the flange's own noise (2.65 mm); 7B flange loss check (761 unmatched, 106 rejected points)"
+D005,pier_1_column_1,pier,local deviation (vertical surface),18.55,-2.81,1.13,0.188,18.5,5,high,"7B local search, 6.4x the component's own noise (2.88 mm)"
+D006,pier_2,pier (global),support movement: pier_2 appears lower by 10-16 mm; needs control points to confirm,42.0,0.0,,,-10.1,9,medium,"as aligned -10.1 mm, levelled to deck over abutments -15.5 mm; no control points"
+D007,abutment_1_ballast_wall,abutment,"wall tilt: lean +0.21 deg, top displaced -5.2 mm (+ = outward) over a 12.4 x 1.4 m face",-1.3,0.0,6.18,17.58,-5.2,8,low,"robust plane fit, scatter 1.9 mm"
+D008,abutment_1_ballast_wall,abutment,rough/irregular surface at a sharp BIM edge,-1.66,4.24,6.94,0.125,78.4,2,low,7B rough-surface patch (points rejected by the normal check)
+D009,abutment_1_ballast_wall,abutment,rough/irregular surface at a sharp BIM edge,-1.65,-4.01,6.94,0.125,53.8,2,low,7B rough-surface patch (points rejected by the normal check)
+D010,abutment_1_return_wall_N,abutment,rough/irregular surface at a sharp BIM edge,-1.58,6.68,4.77,0.25,92.9,3,low,7B rough-surface patch (points rejected by the normal check)
+D011,abutment_1_return_wall_S,abutment,rough/irregular surface at a sharp BIM edge,-1.58,-6.68,4.76,0.25,85.6,3,low,7B rough-surface patch (points rejected by the normal check)
+D012,abutment_2_ballast_wall,abutment,rough/irregular surface at a sharp BIM edge,61.65,0.39,7.03,0.188,97.0,3,low,7B rough-surface patch (points rejected by the normal check)
+D013,abutment_2_bank_seat,abutment,rough/irregular surface at a sharp BIM edge,59.34,5.87,4.16,0.062,81.6,7,low,7B rough-surface patch (points rejected by the normal check)
+D014,abutment_2_bank_seat,abutment,rough/irregular surface at a sharp BIM edge,59.41,3.15,4.18,0.062,9.0,3,low,7B rough-surface patch (points rejected by the normal check)
+D015,abutment_2_return_wall_N,abutment,rough/irregular surface at a sharp BIM edge,59.37,6.6,4.13,0.062,98.9,5,low,7B rough-surface patch (points rejected by the normal check)
+D016,abutment_2_return_wall_N,abutment,rough/irregular surface at a sharp BIM edge,61.6,6.67,5.49,0.625,84.5,3,low,7B rough-surface patch (points rejected by the normal check)
+D017,abutment_2_return_wall_S,abutment,rough/irregular surface at a sharp BIM edge,61.62,-6.67,6.14,0.312,82.9,3,low,7B rough-surface patch (points rejected by the normal check)
+D018,crossframe_019,crossframe,rough/irregular surface at a sharp BIM edge,11.96,-3.15,6.15,0.062,3.1,3,low,7B rough-surface patch (points rejected by the normal check)
+D019,crossframe_022,crossframe,rough/irregular surface at a sharp BIM edge,12.04,-1.24,5.82,0.25,1.3,2,low,7B rough-surface patch (points rejected by the normal check)
+D020,crossframe_026,crossframe,rough/irregular surface at a sharp BIM edge,12.04,1.06,5.82,0.187,2.0,3,low,7B rough-surface patch (points rejected by the normal check)
+D021,crossframe_030,crossframe,rough/irregular surface at a sharp BIM edge,12.04,3.36,5.82,0.124,1.9,2,low,7B rough-surface patch (points rejected by the normal check)
+D022,crossframe_037,crossframe,rough/irregular surface at a sharp BIM edge,23.96,-1.72,6.55,0.125,2.9,2,low,7B rough-surface patch (points rejected by the normal check)
+D023,crossframe_041,crossframe,rough/irregular surface at a sharp BIM edge,23.96,1.51,6.55,0.125,2.4,2,low,7B rough-surface patch (points rejected by the normal check)
+D024,crossframe_046,crossframe,rough/irregular surface at a sharp BIM edge,23.96,3.12,5.79,0.062,5.4,3,low,7B rough-surface patch (points rejected by the normal check)
+D025,crossframe_055,crossframe,rough/irregular surface at a sharp BIM edge,30.0,-1.12,5.96,0.124,1.8,3,low,7B rough-surface patch (points rejected by the normal check)
+D026,crossframe_063,crossframe,rough/irregular surface at a sharp BIM edge,29.96,2.63,5.92,0.062,5.6,3,low,7B rough-surface patch (points rejected by the normal check)
+D027,crossframe_086,crossframe,rough/irregular surface at a sharp BIM edge,47.96,-1.62,5.81,0.062,0.8,2,low,7B rough-surface patch (points rejected by the normal check)
+D028,edge_upstand_N,parapet,rough/irregular surface at a sharp BIM edge,49.12,5.4,7.45,0.062,94.0,3,low,7B rough-surface patch (points rejected by the normal check)
+D029,girder_1_bf,girder,points rejected at flange end / fitting,-0.5,-4.4,5.7,0.5,-12.0,6,low,"7B flange loss check (3 unmatched, 68 rejected points)"
+D030,girder_1_bf,girder,points rejected at flange end / fitting,42.5,-4.4,5.7,0.5,27.1,5,low,"7B flange loss check (7 unmatched, 49 rejected points)"
+D031,girder_1_bf,girder,points rejected at flange end / fitting,60.5,-4.4,5.7,0.5,-7.5,6,low,"7B flange loss check (3 unmatched, 30 rejected points)"
+D032,girder_1_tf,girder,rough/irregular surface at a sharp BIM edge,3.62,-4.2,6.68,0.062,5.1,2,low,7B rough-surface patch (points rejected by the normal check)
+D033,girder_2_bf,girder,rough/irregular surface at a sharp BIM edge,9.63,-1.95,5.72,0.062,5.5,2,low,7B rough-surface patch (points rejected by the normal check)
+D034,girder_2_bf,girder,rough/irregular surface at a sharp BIM edge; points rejected at flange end / fitting,1.86,-1.99,5.72,1.061,5.0,6,low,"7B rough-surface patch (points rejected by the normal check); 7B flange loss check (9 unmatched, 69 rejected points)"
+D035,girder_2_bf,girder,rough/irregular surface at a sharp BIM edge,39.37,-1.95,5.71,0.062,3.4,2,low,7B rough-surface patch (points rejected by the normal check)
+D036,girder_2_bf,girder,rough/irregular surface at a sharp BIM edge,27.48,-1.95,5.68,0.561,1.9,4,low,7B rough-surface patch (points rejected by the normal check)
+D037,girder_2_bf,girder,rough/irregular surface at a sharp BIM edge,32.88,-1.95,5.68,0.25,1.9,4,low,7B rough-surface patch (points rejected by the normal check)
+D038,girder_2_bf,girder,points rejected at flange end / fitting,17.5,-2.2,5.7,0.5,1.9,7,low,"7B flange loss check (7 unmatched, 63 rejected points)"
+D039,girder_2_bf,girder,points rejected at flange end / fitting,44.0,-2.2,5.7,2.0,25.2,5,low,"7B flange loss check (12 unmatched, 238 rejected points)"
+D040,girder_2_bf,girder,points rejected at flange end / fitting,48.5,-2.2,5.7,0.5,25.4,3,low,"7B flange loss check (3 unmatched, 85 rejected points)"
+D041,girder_2_bf,girder,points rejected at flange end / fitting,60.5,-2.2,5.7,0.5,-8.3,6,low,"7B flange loss check (4 unmatched, 50 rejected points)"
+D042,girder_3_bf,girder,rough/irregular surface at a sharp BIM edge,26.38,0.25,5.69,0.062,1.7,2,low,7B rough-surface patch (points rejected by the normal check)
+D043,girder_3_bf,girder,local flange deviation (higher than deck movement),10.75,-0.25,5.7,0.25,16.4,2,low,"7B flange check, 6.2x the flange's own noise (2.66 mm); 7B flange check, 4.8x the flange's own noise (2.66 mm)"
+D044,girder_3_bf,girder,local flange deviation (higher than deck movement),13.83,-0.25,5.7,0.062,11.0,2,low,"7B flange check, 4.1x the flange's own noise (2.66 mm)"
+D045,girder_3_bf,girder,local flange deviation (higher than deck movement),38.39,0.25,5.7,0.188,11.4,2,low,"7B flange check, 4.3x the flange's own noise (2.66 mm)"
+D046,girder_3_bf,girder,points rejected at flange end / fitting,-0.5,0.0,5.7,0.5,2.5,7,low,"7B flange loss check (5 unmatched, 84 rejected points)"
+D047,girder_3_bf,girder,points rejected at flange end / fitting,42.5,0.0,5.7,0.5,24.4,6,low,"7B flange loss check (4 unmatched, 50 rejected points)"
+D048,girder_3_bf,girder,points rejected at flange end / fitting,60.5,0.0,5.7,0.5,2.0,7,low,"7B flange loss check (3 unmatched, 47 rejected points)"
+D049,girder_4_bf,girder,rough/irregular surface at a sharp BIM edge,4.63,1.95,5.72,0.062,8.3,3,low,7B rough-surface patch (points rejected by the normal check)
+D050,girder_4_bf,girder,rough/irregular surface at a sharp BIM edge,21.25,1.95,5.71,0.125,5.6,2,low,7B rough-surface patch (points rejected by the normal check)
+D051,girder_4_bf,girder,rough/irregular surface at a sharp BIM edge,9.63,1.95,5.72,0.062,5.0,3,low,7B rough-surface patch (points rejected by the normal check)
+D052,girder_4_bf,girder,rough/irregular surface at a sharp BIM edge,19.12,1.95,5.72,0.062,4.8,2,low,7B rough-surface patch (points rejected by the normal check)
+D053,girder_4_bf,girder,points rejected at flange end / fitting,-0.5,2.2,5.7,0.5,4.7,6,low,"7B flange loss check (5 unmatched, 67 rejected points)"
+D054,girder_4_bf,girder,points rejected at flange end / fitting,60.5,2.2,5.7,0.5,-1.8,4,low,"7B flange loss check (1 unmatched, 41 rejected points)"
+D055,girder_5_bf,girder,points rejected at flange end / fitting,-0.5,4.4,5.7,0.5,-0.0,7,low,"7B flange loss check (6 unmatched, 91 rejected points)"
+D056,girder_5_bf,girder,points rejected at flange end / fitting,17.5,4.4,5.7,0.5,15.0,7,low,"7B flange loss check (9 unmatched, 99 rejected points)"
+D057,girder_5_bf,girder,points rejected at flange end / fitting,60.5,4.4,5.7,0.5,-9.0,6,low,"7B flange loss check (2 unmatched, 36 rejected points)"
+D058,kerb_S,parapet,rough/irregular surface at a sharp BIM edge,-0.87,-4.39,7.07,0.062,2.0,2,low,7B rough-surface patch (points rejected by the normal check)
+D059,parapet_post_N_022,railing,local deviation (vertical surface),42.42,5.59,8.27,0.062,12.1,3,low,"7B local search, 16.4x the component's own noise (0.74 mm)"
+D060,parapet_post_N_025,railing,rough/irregular surface at a sharp BIM edge; local deviation (underside surface),48.42,5.57,7.45,0.124,27.5,2,low,"7B rough-surface patch (points rejected by the normal check); 7B local search, 4.9x the component's own noise (2.4 mm)"
+D061,parapet_post_N_026,railing,rough/irregular surface at a sharp BIM edge,50.36,5.57,7.45,0.062,23.7,2,low,7B rough-surface patch (points rejected by the normal check)
+D062,parapet_post_N_027,railing,rough/irregular surface at a sharp BIM edge,52.38,5.58,7.46,0.062,19.1,3,low,7B rough-surface patch (points rejected by the normal check)
+D063,parapet_post_N_028,railing,local deviation (underside surface),54.46,5.58,7.45,0.062,28.8,2,low,"7B local search, 17.8x the component's own noise (1.62 mm)"
+D064,parapet_post_S_028,railing,local deviation (underside surface),54.44,-5.47,7.45,0.062,22.0,2,low,"7B local search, 9.8x the component's own noise (2.24 mm)"
+D065,parapet_rail_N_002,railing,rough/irregular surface at a sharp BIM edge,34.4,5.58,8.22,0.062,36.9,3,low,7B rough-surface patch (points rejected by the normal check)
+D066,parapet_rail_S_002,railing,rough/irregular surface at a sharp BIM edge,28.4,-5.59,8.22,0.062,35.8,3,low,7B rough-surface patch (points rejected by the normal check)

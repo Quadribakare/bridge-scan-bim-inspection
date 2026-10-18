@@ -1,0 +1,439 @@
+component,element_type,n_points,n_stations,n_faces,n_hidden_faces,sparse_mesh,n_dropped_normal,dropped_frac,median_dev_mm,max_abs_dev_mm,coverage
+abutment_1_ballast_wall,abutment,13346,12,52,0,True,1375,0.093,0.71,174.6,assessed
+abutment_1_bank_seat,abutment,30552,8,7,0,True,322,0.01,1.05,421.05,assessed
+abutment_1_return_wall_N,abutment,14893,12,16,0,True,584,0.038,-2.0,195.06,assessed
+abutment_1_return_wall_S,abutment,15552,12,16,0,True,599,0.037,0.71,148.9,assessed
+abutment_2_ballast_wall,abutment,9785,11,52,0,True,903,0.084,12.68,180.95,assessed
+abutment_2_bank_seat,abutment,12448,8,7,0,True,318,0.025,5.83,272.23,assessed
+abutment_2_return_wall_N,abutment,12867,10,16,0,True,994,0.072,-1.2,170.4,assessed
+abutment_2_return_wall_S,abutment,12610,11,16,0,True,486,0.037,-0.89,145.88,assessed
+bearing_s0_001,bearing,25,4,14,2,False,45,0.643,4.01,36.01,insufficient coverage - not assessed: too few points
+bearing_s0_002,bearing,35,4,14,2,False,33,0.485,2.73,7.13,assessed
+bearing_s0_003,bearing,24,5,14,2,False,47,0.662,1.79,16.83,insufficient coverage - not assessed: too few points
+bearing_s0_004,bearing,45,6,14,2,False,25,0.357,1.74,15.69,assessed
+bearing_s0_005,bearing,16,3,14,2,False,48,0.75,-3.4,18.32,insufficient coverage - not assessed: too few points
+bearing_s1_001,bearing,25,3,14,2,False,69,0.734,-1.78,8.27,insufficient coverage - not assessed: too few points
+bearing_s1_002,bearing,26,3,14,2,False,66,0.717,-2.31,6.13,insufficient coverage - not assessed: too few points
+bearing_s1_003,bearing,10,3,14,2,False,79,0.888,-2.5,4.85,insufficient coverage - not assessed: too few points
+bearing_s1_004,bearing,25,2,14,2,False,67,0.728,-2.36,7.6,insufficient coverage - not assessed: too few points
+bearing_s1_005,bearing,18,2,14,2,False,79,0.814,-2.5,8.14,insufficient coverage - not assessed: too few points
+bearing_s2_001,bearing,3,2,14,2,False,37,0.925,2.3,25.7,insufficient coverage - not assessed: too few points
+bearing_s2_002,bearing,3,2,14,2,False,36,0.923,-3.94,5.49,insufficient coverage - not assessed: too few points
+bearing_s2_003,bearing,3,2,14,2,False,37,0.925,3.64,22.31,insufficient coverage - not assessed: too few points
+bearing_s2_004,bearing,4,2,14,2,False,39,0.907,2.59,5.13,insufficient coverage - not assessed: too few points
+bearing_s2_005,bearing,4,2,14,2,False,46,0.92,3.98,5.65,insufficient coverage - not assessed: too few points
+bearing_s3_001,bearing,4,2,14,2,False,16,0.8,0.49,1.38,insufficient coverage - not assessed: too few points
+bearing_s3_002,bearing,2,1,14,2,False,30,0.938,0.9,2.78,"insufficient coverage - not assessed: too few points, too few stations"
+bearing_s3_003,bearing,1,1,14,2,False,22,0.957,2.99,2.99,"insufficient coverage - not assessed: too few points, too few stations"
+bearing_s3_004,bearing,1,1,14,2,False,21,0.955,-3.53,3.53,"insufficient coverage - not assessed: too few points, too few stations"
+bearing_s3_005,bearing,0,0,14,2,False,23,1.0,,,"insufficient coverage - not assessed: too few points, too few stations"
+crossframe_001,crossframe,163,2,18,5,False,43,0.209,1.16,29.49,assessed
+crossframe_002,crossframe,488,6,18,5,False,44,0.083,1.02,17.45,assessed
+crossframe_003,crossframe,709,6,16,0,False,118,0.143,1.2,133.44,assessed
+crossframe_005,crossframe,440,2,16,5,False,47,0.097,1.21,36.26,assessed
+crossframe_006,crossframe,480,5,16,5,False,44,0.084,0.88,12.57,assessed
+crossframe_007,crossframe,1058,5,16,0,False,113,0.096,0.95,121.62,assessed
+crossframe_009,crossframe,411,1,16,5,False,48,0.105,0.85,25.47,insufficient coverage - not assessed: too few stations
+crossframe_010,crossframe,492,5,16,5,False,36,0.068,0.56,31.51,assessed
+crossframe_011,crossframe,1029,5,16,0,False,104,0.092,1.08,125.59,assessed
+crossframe_013,crossframe,86,1,14,4,False,23,0.211,1.23,3.44,insufficient coverage - not assessed: too few stations
+crossframe_014,crossframe,462,7,14,4,False,57,0.11,0.43,20.09,assessed
+crossframe_015,crossframe,575,7,16,0,False,111,0.162,0.97,21.91,assessed
+crossframe_017,crossframe,217,3,18,5,False,61,0.219,-0.66,7.25,assessed
+crossframe_018,crossframe,535,4,18,5,False,140,0.207,-2.21,36.64,assessed
+crossframe_019,crossframe,806,4,16,0,False,216,0.211,-0.87,227.11,assessed
+crossframe_021,crossframe,440,2,16,5,False,79,0.152,-2.4,38.41,assessed
+crossframe_022,crossframe,483,4,16,5,False,175,0.266,-2.36,34.37,assessed
+crossframe_023,crossframe,1040,4,16,0,False,240,0.188,-1.86,122.1,assessed
+crossframe_025,crossframe,401,1,16,5,False,62,0.134,-2.14,39.05,insufficient coverage - not assessed: too few stations
+crossframe_026,crossframe,458,4,16,5,False,166,0.266,-2.09,28.15,assessed
+crossframe_027,crossframe,953,4,16,0,False,190,0.166,-1.67,64.01,assessed
+crossframe_029,crossframe,81,1,14,4,False,24,0.229,-1.77,3.77,insufficient coverage - not assessed: too few stations
+crossframe_030,crossframe,414,4,14,4,False,143,0.257,-1.81,32.33,assessed
+crossframe_031,crossframe,492,4,16,0,False,178,0.266,-1.89,148.87,assessed
+crossframe_033,crossframe,286,3,18,5,False,65,0.185,0.41,63.03,assessed
+crossframe_034,crossframe,519,6,18,5,False,126,0.195,4.25,34.11,assessed
+crossframe_035,crossframe,776,7,16,0,False,259,0.25,0.31,203.89,assessed
+crossframe_037,crossframe,342,3,16,5,False,166,0.327,0.02,29.14,assessed
+crossframe_038,crossframe,471,7,16,5,False,144,0.234,5.56,68.14,assessed
+crossframe_039,crossframe,812,8,16,0,False,250,0.235,0.73,186.02,assessed
+crossframe_041,crossframe,437,3,16,5,False,152,0.258,0.27,39.62,assessed
+crossframe_042,crossframe,460,7,16,5,False,150,0.246,2.57,37.92,assessed
+crossframe_043,crossframe,936,8,16,0,False,202,0.178,1.4,267.19,assessed
+crossframe_045,crossframe,455,3,14,4,False,69,0.132,0.21,27.77,assessed
+crossframe_046,crossframe,410,6,14,4,False,153,0.272,2.68,32.89,assessed
+crossframe_047,crossframe,953,7,16,0,False,182,0.16,1.71,292.51,assessed
+crossframe_049,crossframe,132,1,8,0,False,30,0.185,-0.34,39.83,insufficient coverage - not assessed: too few stations
+crossframe_050,crossframe,460,7,8,0,False,163,0.262,4.12,46.76,assessed
+crossframe_051,crossframe,483,7,16,0,False,195,0.288,0.09,216.61,assessed
+crossframe_053,crossframe,45,2,8,0,False,14,0.237,-0.7,14.84,assessed
+crossframe_054,crossframe,494,7,8,0,False,128,0.206,6.4,43.04,assessed
+crossframe_055,crossframe,365,7,16,0,False,212,0.367,0.88,246.48,assessed
+crossframe_057,crossframe,53,2,8,0,False,13,0.197,1.37,39.21,assessed
+crossframe_058,crossframe,474,7,8,0,False,140,0.228,7.32,54.37,assessed
+crossframe_059,crossframe,430,7,16,0,False,191,0.308,2.28,234.68,assessed
+crossframe_061,crossframe,140,2,8,0,False,27,0.162,1.45,41.49,assessed
+crossframe_062,crossframe,505,7,8,0,False,128,0.202,5.97,44.61,assessed
+crossframe_063,crossframe,527,7,16,0,False,227,0.301,2.16,188.67,assessed
+crossframe_065,crossframe,181,2,18,5,False,48,0.21,0.42,32.53,assessed
+crossframe_066,crossframe,424,6,18,5,False,154,0.266,2.08,37.66,assessed
+crossframe_067,crossframe,591,6,16,0,False,205,0.258,0.63,228.21,assessed
+crossframe_069,crossframe,274,2,16,5,False,41,0.13,0.99,41.19,assessed
+crossframe_070,crossframe,500,7,16,5,False,139,0.218,2.32,37.68,assessed
+crossframe_071,crossframe,764,7,16,0,False,170,0.182,1.29,108.03,assessed
+crossframe_073,crossframe,396,2,16,5,False,41,0.094,1.57,34.12,assessed
+crossframe_074,crossframe,534,7,16,5,False,127,0.192,1.97,50.01,assessed
+crossframe_075,crossframe,949,7,16,0,False,170,0.152,2.09,46.56,assessed
+crossframe_077,crossframe,462,2,14,4,False,74,0.138,1.76,35.3,assessed
+crossframe_078,crossframe,609,6,14,4,False,97,0.137,1.63,48.7,assessed
+crossframe_079,crossframe,1196,6,16,0,False,162,0.119,1.95,118.86,assessed
+crossframe_081,crossframe,1,1,18,5,False,0,0.0,-1.43,1.43,"insufficient coverage - not assessed: too few points, too few stations"
+crossframe_082,crossframe,133,3,18,5,False,134,0.502,-0.75,28.38,assessed
+crossframe_083,crossframe,66,3,16,0,False,82,0.554,-1.45,9.67,assessed
+crossframe_086,crossframe,153,3,16,5,False,140,0.478,0.51,35.88,assessed
+crossframe_087,crossframe,96,3,16,0,False,69,0.418,-0.91,146.8,assessed
+crossframe_089,crossframe,34,1,16,5,False,13,0.277,-1.48,3.09,insufficient coverage - not assessed: too few stations
+crossframe_090,crossframe,262,3,16,5,False,93,0.262,-0.39,21.76,assessed
+crossframe_091,crossframe,256,3,16,0,False,90,0.26,-0.88,161.15,assessed
+crossframe_093,crossframe,121,1,14,4,False,37,0.234,-0.76,35.14,insufficient coverage - not assessed: too few stations
+crossframe_094,crossframe,339,3,14,4,False,83,0.197,-0.48,56.99,assessed
+crossframe_095,crossframe,389,3,16,0,False,135,0.258,-0.82,39.37,assessed
+crossframe_097,crossframe,1,1,18,5,False,0,0.0,-0.37,0.37,"insufficient coverage - not assessed: too few points, too few stations"
+crossframe_098,crossframe,214,6,18,5,False,75,0.26,-0.15,24.93,assessed
+crossframe_099,crossframe,154,6,16,0,False,89,0.366,-0.55,123.17,assessed
+crossframe_102,crossframe,221,4,16,5,False,61,0.216,-0.77,7.81,assessed
+crossframe_103,crossframe,135,4,16,0,False,79,0.369,-0.42,162.1,assessed
+crossframe_105,crossframe,24,1,16,5,False,6,0.2,-1.63,4.45,"insufficient coverage - not assessed: too few points, too few stations"
+crossframe_106,crossframe,191,4,16,5,False,94,0.33,-0.47,19.98,assessed
+crossframe_107,crossframe,193,4,16,0,False,83,0.301,-0.39,128.77,assessed
+crossframe_109,crossframe,68,1,14,4,False,19,0.218,-1.11,4.64,insufficient coverage - not assessed: too few stations
+crossframe_110,crossframe,207,5,14,4,False,95,0.315,-0.31,20.99,assessed
+crossframe_111,crossframe,272,5,16,0,False,94,0.257,-0.8,57.37,assessed
+deck_slab,deck,451146,8,12,0,True,4324,0.009,8.82,168.35,assessed
+diaphragm_001,crossframe,2001,7,12,4,False,43,0.021,1.82,7.85,assessed
+diaphragm_002,crossframe,2512,7,12,4,False,38,0.015,2.12,7.97,assessed
+diaphragm_003,crossframe,2479,7,12,4,False,45,0.018,1.89,8.0,assessed
+diaphragm_004,crossframe,1766,7,12,4,False,22,0.012,1.31,7.99,assessed
+diaphragm_005,crossframe,3232,8,12,4,False,25,0.008,-1.2,7.98,assessed
+diaphragm_006,crossframe,4316,8,12,4,False,61,0.014,-1.42,7.97,assessed
+diaphragm_007,crossframe,4608,8,12,4,False,50,0.011,-1.19,7.96,assessed
+diaphragm_008,crossframe,4031,7,12,4,False,47,0.012,-0.73,7.99,assessed
+diaphragm_009,crossframe,2236,6,12,4,False,24,0.011,-0.26,7.92,assessed
+diaphragm_010,crossframe,2455,7,12,4,False,21,0.008,0.04,7.87,assessed
+diaphragm_011,crossframe,2637,7,12,4,False,26,0.01,0.27,15.02,assessed
+diaphragm_012,crossframe,2832,7,12,4,False,66,0.023,0.42,12.03,assessed
+diaphragm_013,crossframe,985,6,12,4,False,21,0.021,0.68,7.18,assessed
+diaphragm_014,crossframe,992,7,12,4,False,5,0.005,0.41,7.88,assessed
+diaphragm_015,crossframe,854,7,12,4,False,6,0.007,0.06,7.88,assessed
+diaphragm_016,crossframe,1022,6,12,4,False,14,0.014,-0.05,7.93,assessed
+edge_upstand_N,parapet,107140,8,14,0,True,6095,0.054,-1.11,246.95,assessed
+edge_upstand_S,parapet,110739,7,14,0,True,3687,0.032,-0.13,254.65,assessed
+footway_N,parapet,32752,4,4,0,True,670,0.02,-2.1,67.01,assessed
+footway_S,parapet,41811,4,4,0,True,639,0.015,-0.17,58.05,assessed
+girder_1_bf,girder,44360,8,10,0,True,6631,0.13,2.35,57.35,assessed
+girder_1_stiff_001,girder,214,3,12,0,False,22,0.093,-4.85,7.94,assessed
+girder_1_stiff_002,girder,251,4,12,0,False,36,0.125,2.61,7.87,assessed
+girder_1_stiff_003,girder,208,3,12,0,False,23,0.1,-2.16,7.81,assessed
+girder_1_stiff_004,girder,271,3,12,0,False,42,0.134,2.87,7.89,assessed
+girder_1_stiff_005,girder,218,3,12,0,False,31,0.124,-0.38,7.8,assessed
+girder_1_stiff_006,girder,115,3,12,0,False,55,0.324,2.64,8.22,assessed
+girder_1_stiff_007,girder,186,2,12,0,False,37,0.166,0.27,6.0,assessed
+girder_1_stiff_008,girder,249,2,12,0,False,86,0.257,-2.82,7.75,assessed
+girder_1_stiff_009,girder,326,3,12,0,False,76,0.189,1.28,7.64,assessed
+girder_1_stiff_010,girder,215,2,12,0,False,28,0.115,-2.8,7.55,assessed
+girder_1_stiff_011,girder,199,3,12,0,False,32,0.139,5.58,7.9,assessed
+girder_1_stiff_012,girder,334,5,12,0,False,25,0.07,-2.52,7.37,assessed
+girder_1_stiff_013,girder,393,3,12,0,False,45,0.103,1.05,7.78,assessed
+girder_1_stiff_014,girder,332,4,12,0,False,12,0.035,-0.79,5.54,assessed
+girder_1_stiff_015,girder,258,3,12,0,False,72,0.218,0.05,7.99,assessed
+girder_1_stiff_016,girder,355,4,12,0,False,39,0.099,-0.87,5.7,assessed
+girder_1_stiff_017,girder,279,3,12,0,False,101,0.266,-0.14,7.77,assessed
+girder_1_stiff_018,girder,214,5,12,0,False,62,0.225,0.01,30.57,assessed
+girder_1_stiff_019,girder,312,3,12,0,False,35,0.101,-0.85,7.88,assessed
+girder_1_stiff_020,girder,157,4,12,0,False,49,0.238,0.02,39.96,assessed
+girder_1_stiff_021,girder,317,3,12,0,False,35,0.099,-0.51,41.33,assessed
+girder_1_stiff_022,girder,182,4,12,0,False,40,0.18,0.63,7.91,assessed
+girder_1_stiff_023,girder,349,3,12,0,False,26,0.069,-0.87,7.88,assessed
+girder_1_stiff_024,girder,274,4,12,0,False,51,0.157,0.43,7.97,assessed
+girder_1_stiff_025,girder,320,3,12,0,False,16,0.048,-0.99,26.14,assessed
+girder_1_stiff_026,girder,240,3,12,0,False,36,0.13,0.22,7.06,assessed
+girder_1_stiff_027,girder,268,3,12,0,False,48,0.152,-1.25,7.89,assessed
+girder_1_stiff_028,girder,221,3,12,0,False,8,0.035,0.15,7.65,assessed
+girder_1_stiff_029,girder,263,3,12,0,False,35,0.117,-1.32,7.53,assessed
+girder_1_stiff_030,girder,51,3,12,0,False,9,0.15,0.28,7.19,assessed
+girder_1_stiff_031,girder,139,3,12,0,False,26,0.158,-1.9,7.7,assessed
+girder_1_stiff_032,girder,8,1,12,0,False,2,0.2,-1.29,5.89,"insufficient coverage - not assessed: too few points, too few stations"
+girder_1_stiff_033,girder,45,3,12,0,False,7,0.135,2.73,7.9,assessed
+girder_1_stiff_034,girder,62,2,12,0,False,7,0.101,-1.09,3.74,assessed
+girder_1_stiff_035,girder,118,3,12,0,False,39,0.248,2.11,7.8,assessed
+girder_1_stiff_036,girder,77,3,12,0,False,17,0.181,-1.25,7.64,assessed
+girder_1_stiff_037,girder,163,3,12,0,False,38,0.189,2.12,7.65,assessed
+girder_1_stiff_038,girder,81,3,12,0,False,4,0.047,-0.3,5.2,assessed
+girder_1_stiff_039,girder,178,3,12,0,False,10,0.053,2.08,10.23,assessed
+girder_1_stiff_040,girder,99,3,12,0,False,7,0.066,-0.12,5.6,assessed
+girder_1_tf,girder,21188,5,10,0,True,4278,0.168,4.81,54.28,assessed
+girder_1_web,girder,122977,8,12,0,True,1152,0.009,0.9,10.61,assessed
+girder_2_bf,girder,43983,8,10,0,True,6630,0.131,3.41,47.89,assessed
+girder_2_stiff_001,girder,164,3,12,0,False,19,0.104,-1.03,7.57,assessed
+girder_2_stiff_002,girder,262,3,12,0,False,45,0.147,2.29,7.92,assessed
+girder_2_stiff_003,girder,140,3,12,0,False,18,0.114,-0.08,7.98,assessed
+girder_2_stiff_004,girder,257,3,12,0,False,73,0.221,2.46,7.73,assessed
+girder_2_stiff_005,girder,194,2,12,0,False,22,0.102,0.58,7.76,assessed
+girder_2_stiff_006,girder,247,3,12,0,False,72,0.226,2.58,7.62,assessed
+girder_2_stiff_007,girder,171,2,12,0,False,25,0.128,0.79,5.97,assessed
+girder_2_stiff_008,girder,242,2,12,0,False,83,0.255,-2.54,6.92,assessed
+girder_2_stiff_009,girder,312,3,12,0,False,42,0.119,1.13,7.73,assessed
+girder_2_stiff_010,girder,201,2,12,0,False,36,0.152,-2.37,7.25,assessed
+girder_2_stiff_011,girder,71,2,12,0,False,24,0.253,5.83,7.47,assessed
+girder_2_stiff_012,girder,291,5,12,0,False,15,0.049,-2.07,7.98,assessed
+girder_2_stiff_013,girder,148,2,12,0,False,62,0.295,0.64,7.81,assessed
+girder_2_stiff_014,girder,332,4,12,0,False,26,0.073,-0.74,6.12,assessed
+girder_2_stiff_015,girder,117,3,12,0,False,95,0.448,4.06,20.39,assessed
+girder_2_stiff_016,girder,367,4,12,0,False,59,0.138,-0.95,5.33,assessed
+girder_2_stiff_017,girder,272,3,12,0,False,50,0.155,-0.59,7.48,assessed
+girder_2_stiff_018,girder,285,5,12,0,False,54,0.159,-0.21,7.95,assessed
+girder_2_stiff_019,girder,274,3,12,0,False,39,0.125,-0.7,34.2,assessed
+girder_2_stiff_020,girder,239,4,12,0,False,60,0.201,-0.18,38.21,assessed
+girder_2_stiff_021,girder,241,3,12,0,False,40,0.142,-0.75,7.72,assessed
+girder_2_stiff_022,girder,318,4,12,0,False,50,0.136,0.65,6.25,assessed
+girder_2_stiff_023,girder,242,3,12,0,False,34,0.123,-0.6,7.91,assessed
+girder_2_stiff_024,girder,357,4,12,0,False,44,0.11,0.5,7.99,assessed
+girder_2_stiff_025,girder,180,3,12,0,False,8,0.043,-1.46,7.78,assessed
+girder_2_stiff_026,girder,254,3,12,0,False,74,0.226,0.52,7.88,assessed
+girder_2_stiff_027,girder,119,2,12,0,False,2,0.017,-0.14,7.66,assessed
+girder_2_stiff_028,girder,235,3,12,0,False,33,0.123,0.22,7.08,assessed
+girder_2_stiff_029,girder,114,3,12,0,False,13,0.102,-1.43,5.66,assessed
+girder_2_stiff_030,girder,65,3,12,0,False,17,0.207,0.44,7.03,assessed
+girder_2_stiff_031,girder,52,3,12,0,False,48,0.48,-1.43,7.79,assessed
+girder_2_stiff_032,girder,73,2,12,0,False,18,0.198,-1.23,7.01,assessed
+girder_2_stiff_033,girder,31,1,12,0,False,3,0.088,0.55,5.03,insufficient coverage - not assessed: too few stations
+girder_2_stiff_034,girder,76,2,12,0,False,28,0.269,-1.37,3.76,assessed
+girder_2_stiff_035,girder,42,1,12,0,False,6,0.125,1.22,3.05,insufficient coverage - not assessed: too few stations
+girder_2_stiff_036,girder,95,3,12,0,False,14,0.128,-0.81,4.16,assessed
+girder_2_stiff_037,girder,77,3,12,0,False,22,0.222,2.35,7.66,assessed
+girder_2_stiff_038,girder,121,3,12,0,False,2,0.016,0.05,3.92,assessed
+girder_2_stiff_039,girder,102,3,12,0,False,22,0.177,1.96,6.95,assessed
+girder_2_stiff_040,girder,130,3,12,0,False,8,0.058,0.05,5.51,assessed
+girder_2_tf,girder,14780,3,10,0,True,2475,0.143,16.53,45.34,assessed
+girder_2_web,girder,107222,8,20,0,True,846,0.008,1.02,8.47,assessed
+girder_3_bf,girder,43763,8,10,0,True,5483,0.111,3.54,47.96,assessed
+girder_3_stiff_001,girder,119,3,12,0,False,6,0.048,-0.32,7.87,assessed
+girder_3_stiff_002,girder,78,4,12,0,False,1,0.013,-3.77,7.96,assessed
+girder_3_stiff_003,girder,118,2,12,0,False,14,0.106,0.15,7.94,assessed
+girder_3_stiff_004,girder,91,2,12,0,False,4,0.042,-1.55,7.92,assessed
+girder_3_stiff_005,girder,169,2,12,0,False,7,0.04,1.03,7.47,assessed
+girder_3_stiff_006,girder,38,2,12,0,False,2,0.05,0.24,7.8,assessed
+girder_3_stiff_007,girder,138,1,12,0,False,27,0.164,0.85,3.73,insufficient coverage - not assessed: too few stations
+girder_3_stiff_009,girder,192,2,12,0,False,40,0.172,1.14,7.95,assessed
+girder_3_stiff_010,girder,40,2,12,0,False,5,0.111,1.42,7.87,assessed
+girder_3_stiff_011,girder,55,2,12,0,False,1,0.018,4.7,7.66,assessed
+girder_3_stiff_012,girder,114,4,12,0,False,11,0.088,1.34,7.78,assessed
+girder_3_stiff_013,girder,114,2,12,0,False,40,0.26,0.69,7.97,assessed
+girder_3_stiff_014,girder,237,3,12,0,False,11,0.044,-0.02,4.43,assessed
+girder_3_stiff_015,girder,62,2,12,0,False,38,0.38,-1.02,7.39,assessed
+girder_3_stiff_016,girder,221,3,12,0,False,28,0.112,-0.52,3.99,assessed
+girder_3_stiff_017,girder,179,3,12,0,False,52,0.225,-0.76,7.83,assessed
+girder_3_stiff_018,girder,250,4,12,0,False,62,0.199,-0.16,7.92,assessed
+girder_3_stiff_019,girder,218,3,12,0,False,52,0.193,-0.67,7.96,assessed
+girder_3_stiff_020,girder,301,4,12,0,False,67,0.182,0.05,8.0,assessed
+girder_3_stiff_021,girder,211,3,12,0,False,7,0.032,-0.95,43.86,assessed
+girder_3_stiff_022,girder,402,4,12,0,False,94,0.19,0.68,7.88,assessed
+girder_3_stiff_023,girder,201,3,12,0,False,52,0.206,-1.19,7.73,assessed
+girder_3_stiff_024,girder,366,4,12,0,False,74,0.168,0.77,7.65,assessed
+girder_3_stiff_025,girder,104,2,12,0,False,14,0.119,-0.18,7.82,assessed
+girder_3_stiff_026,girder,262,3,12,0,False,39,0.13,0.81,7.97,assessed
+girder_3_stiff_027,girder,120,2,12,0,False,3,0.024,-0.98,6.79,assessed
+girder_3_stiff_028,girder,214,3,12,0,False,47,0.18,-0.02,7.98,assessed
+girder_3_stiff_029,girder,67,3,12,0,False,18,0.212,-1.3,7.87,assessed
+girder_3_stiff_030,girder,86,3,12,0,False,16,0.157,-0.1,6.65,assessed
+girder_3_stiff_031,girder,30,2,12,0,False,22,0.423,-2.13,5.73,assessed
+girder_3_stiff_032,girder,170,2,12,0,False,57,0.251,-0.94,3.96,assessed
+girder_3_stiff_034,girder,139,1,12,0,False,29,0.173,-1.2,5.5,insufficient coverage - not assessed: too few stations
+girder_3_stiff_035,girder,17,1,12,0,False,17,0.5,2.14,3.52,"insufficient coverage - not assessed: too few points, too few stations"
+girder_3_stiff_036,girder,162,3,12,0,False,24,0.129,-0.93,7.25,assessed
+girder_3_stiff_037,girder,33,1,12,0,False,16,0.327,2.12,3.87,insufficient coverage - not assessed: too few stations
+girder_3_stiff_038,girder,126,3,12,0,False,10,0.074,-0.41,3.8,assessed
+girder_3_stiff_039,girder,58,3,12,0,False,0,0.0,2.1,7.28,assessed
+girder_3_stiff_040,girder,149,4,12,0,False,0,0.0,0.04,6.2,assessed
+girder_3_tf,girder,11088,3,10,0,True,1755,0.137,26.6,45.3,assessed
+girder_3_web,girder,92335,7,16,0,True,658,0.007,0.57,8.23,assessed
+girder_4_bf,girder,42881,8,10,0,True,5310,0.11,4.9,49.2,assessed
+girder_4_stiff_001,girder,258,3,12,0,False,15,0.055,1.75,6.76,assessed
+girder_4_stiff_002,girder,119,3,12,0,False,12,0.092,-6.15,8.0,assessed
+girder_4_stiff_003,girder,287,3,12,0,False,14,0.047,1.9,6.81,assessed
+girder_4_stiff_004,girder,105,3,12,0,False,2,0.019,-6.05,7.86,assessed
+girder_4_stiff_005,girder,271,3,12,0,False,20,0.069,1.83,7.76,assessed
+girder_4_stiff_006,girder,46,1,12,0,False,19,0.292,-5.91,7.75,insufficient coverage - not assessed: too few stations
+girder_4_stiff_007,girder,348,3,12,0,False,31,0.082,-1.48,7.79,assessed
+girder_4_stiff_008,girder,7,1,12,0,False,18,0.72,-6.22,7.39,"insufficient coverage - not assessed: too few points, too few stations"
+girder_4_stiff_009,girder,273,3,12,0,False,16,0.055,-1.67,7.33,assessed
+girder_4_stiff_010,girder,74,3,12,0,False,26,0.26,4.22,7.77,assessed
+girder_4_stiff_011,girder,259,3,12,0,False,8,0.03,-1.97,7.42,assessed
+girder_4_stiff_012,girder,97,4,12,0,False,13,0.118,5.87,7.83,assessed
+girder_4_stiff_013,girder,125,3,12,0,False,39,0.238,-0.78,7.5,assessed
+girder_4_stiff_014,girder,147,3,12,0,False,3,0.02,0.46,4.32,assessed
+girder_4_stiff_015,girder,143,3,12,0,False,40,0.219,-1.67,7.39,assessed
+girder_4_stiff_016,girder,183,4,12,0,False,18,0.09,1.63,7.79,assessed
+girder_4_stiff_017,girder,146,4,12,0,False,36,0.198,-1.21,7.63,assessed
+girder_4_stiff_018,girder,251,4,12,0,False,46,0.155,1.57,7.79,assessed
+girder_4_stiff_019,girder,143,3,12,0,False,32,0.183,-0.87,7.84,assessed
+girder_4_stiff_020,girder,262,4,12,0,False,50,0.16,1.11,7.67,assessed
+girder_4_stiff_021,girder,161,3,12,0,False,31,0.161,-1.38,7.91,assessed
+girder_4_stiff_022,girder,308,4,12,0,False,59,0.161,1.17,7.58,assessed
+girder_4_stiff_023,girder,145,3,12,0,False,5,0.033,-1.26,6.46,assessed
+girder_4_stiff_024,girder,313,4,12,0,False,54,0.147,1.12,33.54,assessed
+girder_4_stiff_025,girder,73,2,12,0,False,20,0.215,-0.83,6.53,assessed
+girder_4_stiff_026,girder,152,4,12,0,False,104,0.406,0.63,7.62,assessed
+girder_4_stiff_027,girder,81,2,12,0,False,18,0.182,-0.86,7.17,assessed
+girder_4_stiff_028,girder,165,3,12,0,False,69,0.295,-0.95,7.79,assessed
+girder_4_stiff_029,girder,50,3,12,0,False,14,0.219,-1.94,7.54,assessed
+girder_4_stiff_030,girder,76,3,12,0,False,22,0.224,-0.55,7.35,assessed
+girder_4_stiff_031,girder,9,1,12,0,False,13,0.591,-2.05,2.72,"insufficient coverage - not assessed: too few points, too few stations"
+girder_4_stiff_032,girder,294,3,12,0,False,61,0.172,-1.12,7.57,assessed
+girder_4_stiff_033,girder,10,1,12,0,False,4,0.286,-1.23,1.79,"insufficient coverage - not assessed: too few points, too few stations"
+girder_4_stiff_034,girder,206,2,12,0,False,12,0.055,-1.09,4.38,assessed
+girder_4_stiff_035,girder,11,1,12,0,False,2,0.154,1.89,3.06,"insufficient coverage - not assessed: too few points, too few stations"
+girder_4_stiff_036,girder,167,2,12,0,False,36,0.177,-1.0,7.97,assessed
+girder_4_stiff_037,girder,25,1,12,0,False,1,0.038,2.01,3.8,"insufficient coverage - not assessed: too few points, too few stations"
+girder_4_stiff_038,girder,111,3,12,0,False,39,0.26,0.01,7.51,assessed
+girder_4_stiff_039,girder,32,1,12,0,False,4,0.111,2.5,3.78,insufficient coverage - not assessed: too few stations
+girder_4_stiff_040,girder,157,3,12,0,False,17,0.098,0.01,7.72,assessed
+girder_4_tf,girder,10352,3,10,0,True,1254,0.108,5.5,43.41,assessed
+girder_4_web,girder,95880,7,20,0,True,368,0.004,-0.8,8.33,assessed
+girder_5_bf,girder,43302,8,10,0,True,5596,0.114,5.96,46.91,assessed
+girder_5_stiff_001,girder,257,4,12,0,False,3,0.012,1.62,7.63,assessed
+girder_5_stiff_002,girder,172,3,12,0,False,24,0.122,-6.51,8.38,assessed
+girder_5_stiff_003,girder,253,4,12,0,False,17,0.063,1.59,7.28,assessed
+girder_5_stiff_004,girder,177,3,12,0,False,26,0.128,-5.91,8.0,assessed
+girder_5_stiff_005,girder,193,3,12,0,False,36,0.157,1.55,7.68,assessed
+girder_5_stiff_006,girder,115,3,12,0,False,36,0.238,-5.66,7.95,assessed
+girder_5_stiff_007,girder,347,3,12,0,False,15,0.041,-1.65,7.72,assessed
+girder_5_stiff_008,girder,49,3,12,0,False,5,0.093,0.42,5.11,assessed
+girder_5_stiff_009,girder,213,2,12,0,False,13,0.058,-1.54,7.81,assessed
+girder_5_stiff_010,girder,169,3,12,0,False,7,0.04,5.73,7.96,assessed
+girder_5_stiff_011,girder,295,4,12,0,False,34,0.103,-1.69,7.22,assessed
+girder_5_stiff_012,girder,267,3,12,0,False,4,0.015,3.47,7.98,assessed
+girder_5_stiff_013,girder,227,4,12,0,False,23,0.092,-1.19,6.79,assessed
+girder_5_stiff_014,girder,249,3,12,0,False,39,0.135,2.68,7.98,assessed
+girder_5_stiff_015,girder,252,4,12,0,False,51,0.168,-1.12,5.96,assessed
+girder_5_stiff_016,girder,266,3,12,0,False,17,0.06,2.08,7.96,assessed
+girder_5_stiff_017,girder,223,4,12,0,False,15,0.063,-0.89,7.62,assessed
+girder_5_stiff_018,girder,331,3,12,0,False,17,0.049,1.73,30.57,assessed
+girder_5_stiff_019,girder,216,4,12,0,False,59,0.215,-0.95,36.96,assessed
+girder_5_stiff_020,girder,309,3,12,0,False,11,0.034,1.41,7.54,assessed
+girder_5_stiff_021,girder,210,4,12,0,False,35,0.143,0.32,7.08,assessed
+girder_5_stiff_022,girder,301,3,12,0,False,40,0.117,1.55,7.97,assessed
+girder_5_stiff_023,girder,196,4,12,0,False,12,0.058,0.31,7.44,assessed
+girder_5_stiff_024,girder,286,3,12,0,False,84,0.227,1.2,7.85,assessed
+girder_5_stiff_025,girder,164,3,12,0,False,24,0.128,0.41,6.44,assessed
+girder_5_stiff_026,girder,248,3,12,0,False,84,0.253,0.98,7.95,assessed
+girder_5_stiff_027,girder,162,3,12,0,False,10,0.058,0.67,6.65,assessed
+girder_5_stiff_028,girder,354,3,12,0,False,84,0.192,-1.02,7.83,assessed
+girder_5_stiff_029,girder,60,4,12,0,False,9,0.13,-0.62,7.86,assessed
+girder_5_stiff_030,girder,202,3,12,0,False,41,0.169,-0.62,7.69,assessed
+girder_5_stiff_031,girder,5,1,12,0,False,6,0.545,-2.33,2.35,"insufficient coverage - not assessed: too few points, too few stations"
+girder_5_stiff_032,girder,325,3,12,0,False,68,0.173,-1.0,7.31,assessed
+girder_5_stiff_033,girder,3,1,12,0,False,7,0.7,-0.73,2.11,"insufficient coverage - not assessed: too few points, too few stations"
+girder_5_stiff_034,girder,177,2,12,0,False,29,0.141,-1.13,7.62,assessed
+girder_5_stiff_035,girder,8,1,12,0,False,2,0.2,-1.32,7.58,"insufficient coverage - not assessed: too few points, too few stations"
+girder_5_stiff_036,girder,189,3,12,0,False,31,0.141,-0.38,7.22,assessed
+girder_5_stiff_037,girder,34,2,12,0,False,9,0.209,1.32,4.11,assessed
+girder_5_stiff_038,girder,202,3,12,0,False,19,0.086,0.29,7.18,assessed
+girder_5_stiff_039,girder,35,3,12,0,False,0,0.0,1.73,4.24,assessed
+girder_5_stiff_040,girder,175,3,12,0,False,5,0.028,0.38,7.79,assessed
+girder_5_tf,girder,22033,5,10,0,True,3082,0.123,8.83,58.38,assessed
+girder_5_web,girder,108856,8,12,0,True,672,0.006,-1.77,14.1,assessed
+kerb_N,parapet,16569,4,12,0,True,4853,0.227,-1.59,89.72,assessed
+kerb_S,parapet,15749,4,12,0,True,4331,0.216,-0.31,69.04,assessed
+parapet_post_N_001,railing,322,6,12,0,False,32,0.09,-0.7,9.63,assessed
+parapet_post_N_002,railing,370,7,12,0,False,40,0.098,-0.73,46.38,assessed
+parapet_post_N_003,railing,371,6,12,0,False,69,0.157,-1.01,46.03,assessed
+parapet_post_N_004,railing,360,7,12,0,False,51,0.124,-1.06,48.03,assessed
+parapet_post_N_005,railing,384,7,12,0,False,37,0.088,-1.23,14.72,assessed
+parapet_post_N_006,railing,346,7,12,0,False,35,0.092,-0.98,20.17,assessed
+parapet_post_N_007,railing,343,7,12,0,False,61,0.151,-1.0,36.77,assessed
+parapet_post_N_008,railing,333,6,12,0,False,52,0.135,-1.09,15.87,assessed
+parapet_post_N_009,railing,377,7,12,0,False,34,0.083,-0.62,14.87,assessed
+parapet_post_N_010,railing,330,7,12,0,False,29,0.081,-0.59,33.64,assessed
+parapet_post_N_011,railing,314,7,12,0,False,59,0.158,-0.09,10.62,assessed
+parapet_post_N_012,railing,282,7,12,0,False,42,0.13,1.01,42.79,assessed
+parapet_post_N_013,railing,242,7,12,0,False,57,0.191,1.34,11.68,assessed
+parapet_post_N_014,railing,244,7,12,0,False,30,0.109,1.7,19.38,assessed
+parapet_post_N_015,railing,246,7,12,0,False,39,0.137,1.24,13.68,assessed
+parapet_post_N_016,railing,248,7,10,0,False,43,0.148,1.54,15.41,assessed
+parapet_post_N_017,railing,276,7,12,0,False,41,0.129,1.72,45.8,assessed
+parapet_post_N_018,railing,296,7,12,0,False,52,0.149,1.5,41.68,assessed
+parapet_post_N_019,railing,289,7,12,0,False,64,0.181,0.91,13.74,assessed
+parapet_post_N_020,railing,313,7,12,0,False,44,0.123,1.45,22.86,assessed
+parapet_post_N_021,railing,377,7,13,0,False,64,0.145,1.23,17.75,assessed
+parapet_post_N_022,railing,430,7,12,0,False,48,0.1,1.32,50.28,assessed
+parapet_post_N_023,railing,432,7,12,0,False,77,0.151,1.33,39.55,assessed
+parapet_post_N_024,railing,425,7,12,0,False,102,0.194,1.39,44.09,assessed
+parapet_post_N_025,railing,418,7,12,0,False,96,0.187,0.08,45.53,assessed
+parapet_post_N_026,railing,414,7,12,0,False,66,0.138,0.45,40.84,assessed
+parapet_post_N_027,railing,381,7,12,0,False,64,0.144,0.02,29.55,assessed
+parapet_post_N_028,railing,365,7,12,0,False,58,0.137,-0.31,48.55,assessed
+parapet_post_N_029,railing,335,7,12,0,False,70,0.173,-0.93,42.07,assessed
+parapet_post_N_030,railing,336,7,12,0,False,72,0.176,-0.88,59.2,assessed
+parapet_post_S_001,railing,334,7,12,0,False,34,0.092,1.05,39.73,assessed
+parapet_post_S_002,railing,386,7,12,0,False,34,0.081,0.68,44.7,assessed
+parapet_post_S_003,railing,376,6,12,0,False,116,0.236,0.6,48.39,assessed
+parapet_post_S_004,railing,478,7,12,0,False,50,0.095,0.25,36.34,assessed
+parapet_post_S_005,railing,510,7,12,0,False,54,0.096,0.52,24.07,assessed
+parapet_post_S_006,railing,493,7,12,0,False,52,0.095,0.58,14.84,assessed
+parapet_post_S_007,railing,484,7,12,0,False,69,0.125,1.06,39.73,assessed
+parapet_post_S_008,railing,525,7,12,0,False,35,0.062,1.31,24.26,assessed
+parapet_post_S_009,railing,464,7,12,0,False,42,0.083,1.66,30.03,assessed
+parapet_post_S_010,railing,385,7,12,0,False,52,0.119,1.83,30.22,assessed
+parapet_post_S_011,railing,375,7,12,0,False,28,0.069,1.77,29.42,assessed
+parapet_post_S_012,railing,310,7,12,0,False,28,0.083,2.28,14.67,assessed
+parapet_post_S_013,railing,303,7,12,0,False,35,0.104,1.95,23.09,assessed
+parapet_post_S_014,railing,256,7,12,0,False,51,0.166,1.4,20.05,assessed
+parapet_post_S_015,railing,245,7,12,0,False,66,0.212,1.75,14.52,assessed
+parapet_post_S_016,railing,246,7,10,0,False,60,0.196,1.34,46.89,assessed
+parapet_post_S_017,railing,255,7,12,0,False,43,0.144,1.28,13.18,assessed
+parapet_post_S_018,railing,253,7,12,0,False,52,0.17,1.18,18.36,assessed
+parapet_post_S_019,railing,277,7,12,0,False,38,0.121,0.58,17.1,assessed
+parapet_post_S_020,railing,317,7,12,0,False,63,0.166,0.53,41.75,assessed
+parapet_post_S_021,railing,335,7,13,0,False,46,0.121,-0.11,38.68,assessed
+parapet_post_S_022,railing,367,7,12,0,False,50,0.12,-1.01,31.04,assessed
+parapet_post_S_023,railing,335,7,12,0,False,62,0.156,-1.18,18.42,assessed
+parapet_post_S_024,railing,328,7,12,0,False,56,0.146,-1.84,54.45,assessed
+parapet_post_S_025,railing,278,7,12,0,False,49,0.15,-1.95,34.92,assessed
+parapet_post_S_026,railing,293,7,12,0,False,39,0.117,-2.06,30.02,assessed
+parapet_post_S_027,railing,332,7,12,0,False,61,0.155,-1.79,12.31,assessed
+parapet_post_S_028,railing,356,7,12,0,False,37,0.094,-1.62,41.57,assessed
+parapet_post_S_029,railing,379,6,12,0,False,42,0.1,-1.44,53.87,assessed
+parapet_post_S_030,railing,380,6,12,0,False,27,0.066,-1.14,46.09,assessed
+parapet_rail_N_001,railing,19571,7,12,0,True,4974,0.203,-0.67,81.82,assessed
+parapet_rail_N_002,railing,22063,7,14,0,True,3569,0.139,0.64,78.77,assessed
+parapet_rail_S_001,railing,20121,7,12,0,True,5099,0.202,0.32,81.47,assessed
+parapet_rail_S_002,railing,23027,7,14,0,True,3502,0.132,0.58,79.77,assessed
+pier_1_column_1,pier,27959,8,288,0,False,17,0.001,0.68,119.3,assessed
+pier_1_column_2,pier,25889,8,288,0,False,12,0.0,-0.01,186.84,assessed
+pier_1_crosshead,pier,85326,8,18,0,True,278,0.003,-1.22,329.57,assessed
+pier_2_column_1,pier,21447,8,288,0,False,11,0.001,-0.6,214.15,assessed
+pier_2_column_2,pier,23246,8,288,0,False,33,0.001,-0.6,173.81,assessed
+pier_2_crosshead,pier,65556,7,18,0,True,401,0.006,0.51,723.6,assessed
+plinth_s0_001,bearing,257,6,10,0,False,15,0.055,2.85,112.76,assessed
+plinth_s0_002,bearing,233,6,11,0,False,15,0.06,2.51,109.23,assessed
+plinth_s0_003,bearing,196,6,10,0,False,20,0.093,1.89,114.3,assessed
+plinth_s0_004,bearing,224,6,10,0,False,7,0.03,1.56,88.62,assessed
+plinth_s0_005,bearing,237,5,10,0,False,25,0.095,0.82,6.87,assessed
+plinth_s1_001,bearing,412,6,10,0,False,12,0.028,-1.18,109.01,assessed
+plinth_s1_002,bearing,396,6,11,0,False,9,0.022,-1.52,106.66,assessed
+plinth_s1_003,bearing,377,6,10,0,False,9,0.023,-1.46,71.83,assessed
+plinth_s1_004,bearing,416,5,11,0,False,13,0.03,-1.66,63.07,assessed
+plinth_s1_005,bearing,434,6,10,0,False,15,0.033,-1.64,105.07,assessed
+plinth_s2_001,bearing,185,4,10,0,False,6,0.031,1.02,106.52,assessed
+plinth_s2_002,bearing,181,4,11,0,False,16,0.081,0.8,63.15,assessed
+plinth_s2_003,bearing,183,4,10,0,False,10,0.052,0.85,46.03,assessed
+plinth_s2_004,bearing,180,4,11,0,False,18,0.091,1.36,10.6,assessed
+plinth_s2_005,bearing,173,5,10,0,False,12,0.065,1.14,109.85,assessed
+plinth_s3_001,bearing,108,5,10,0,False,10,0.085,-0.65,47.68,assessed
+plinth_s3_002,bearing,113,6,10,0,False,15,0.117,-0.17,125.56,assessed
+plinth_s3_003,bearing,134,5,10,0,False,5,0.036,-0.36,54.25,assessed
+plinth_s3_004,bearing,72,3,11,0,False,5,0.065,-0.64,11.28,assessed
+plinth_s3_005,bearing,120,5,10,0,False,3,0.024,-0.38,111.3,assessed
+surfacing_L,surfacing,206910,5,5,0,True,1633,0.008,-0.95,49.59,assessed
+surfacing_R,surfacing,206429,4,5,0,True,1533,0.007,-1.45,119.0,assessed

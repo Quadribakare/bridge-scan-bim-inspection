@@ -1,0 +1,149 @@
+# Step 7 configuration. Every number here is a generic method parameter
+# (not fitted to this bridge's own geometry or defect sizes) -- real
+# thresholds (noise floors, flag levels) are measured from the data at
+# runtime and reported, not hardcoded here.
+
+component_matching:
+  bbox_margin_m: 0.15      # UPPER CAP on search margin -- the actual margin
+                            # per component is scaled to that component's own
+                            # thickness (see thickness_fraction), never a
+                            # single fixed value for every component
+  thickness_fraction: 0.5  # margin = min(bbox_margin_m, thickness_fraction *
+                            # the component's own smallest bbox dimension)
+  max_point_normal_disagree_deg: 45  # PER-POINT check: if a point's own
+                              # locally-estimated scan normal disagrees with
+                              # its matched BIM face's normal by more than
+                              # this, drop that POINT only, not the whole
+                              # component. (Averaging normals across a whole
+                              # component was wrong -- a column/box seen from
+                              # several sides legitimately has points whose
+                              # normals point in different directions, and
+                              # averaging them cancels out even though every
+                              # individual match is fine.)
+  scan_normal_knn: 30        # generic point-cloud normal-estimation
+                              # neighbourhood size (density-adaptive via kNN,
+                              # not a fixed radius tuned to this bridge)
+
+report_llm:
+  # the final report is written by an LLM from the verified findings only;
+  # it never decides what is a defect, and the answer key is never sent
+  base_url: https://openrouter.ai/api/v1   # key from env OPENROUTER_API_KEY (or .env)
+  model: anthropic/claude-sonnet-5.5
+  temperature: 0
+  max_tokens: 6000
+  max_cost_usd: 0.50        # hard cap per run, across the first attempt and the retry
+  max_attempts: 2           # one retry, with the validation errors fed back
+
+pipeline:
+  # 7A (component matching) and 7B part 1 (deck movement model) depend on each
+  # other; run_pipeline.py alternates them until the model stops changing
+  movement_model_tolerance_mm: 0.1
+  movement_model_max_iterations: 5
+
+movement_compensation:
+  # Element types carried by the deck: matched against design + the deck
+  # movement model, so global sag can't push thin members out of their own
+  # matching boxes. Supports (piers, abutments, bearings) are matched as-is.
+  carried_by_deck: [girder, crossframe, deck, surfacing, parapet, railing]
+
+hidden_face_detection:
+  raycast_eps_m: 0.001       # lift-off along a face's own normal before
+                              # raycasting, just enough to avoid the ray
+                              # re-hitting its own surface at t=0 -- not a
+                              # tuned value, a numerical-stability constant
+
+ai_inspector:
+  base_url: https://openrouter.ai/api/v1   # key from env OPENROUTER_API_KEY (or .env)
+  # two strong vision models from different vendors, so their opinions are
+  # independent; both accept temperature 0
+  models: [anthropic/claude-sonnet-5.5, google/gemini-3.1-pro-preview]
+  temperature: 0
+  max_image_px: 1600         # longest image side sent to the models
+  workers: 10                # parallel requests
+  agree_multiple: 3.0        # keep if both models agree AND numbers > 3x noise
+  numbers_multiple: 4.0      # or numbers > 4x noise with >= min_stations
+  very_strong_multiple: 8.0  # keep even if both models call it an artefact
+  summary_model: anthropic/claude-sonnet-5.5
+
+alignment:
+  min_elongation: 2.0       # principal-axis starts are used when both the scan and the
+                              # design are at least this elongated in plan (long axis /
+                              # short axis); a bridge is typically 4-6
+  ransac_restarts: 3        # seeded RANSAC starts (repeatable). All starts (principal
+                              # axes + RANSAC) are refined and scored; the best one wins.
+                              # A single RANSAC start can lock onto a wrong near-match on
+                              # a structure with repeating piers and spans
+  score_within_m: 0.10      # score for a start: share of points within this
+                              # distance of the design after a quick ICP
+  min_inlier_pct: 70        # quality gate after the orientation check: fewer points
+                              # than this within 2 cm of the design means the
+                              # alignment failed -- stop rather than report defects
+                              # from a bad alignment
+
+orientation:
+  # A structure that is symmetric end-to-end fits its BIM equally well after a
+  # 180 deg rotation about the vertical axis, so geometry alone can't fix the
+  # orientation. Both candidates are refined and compared; if they tie, the
+  # orientation must come from external metadata.
+  tie_rel_median: 0.10      # median fit distances within 10% of each other ...
+  tie_inlier_pct: 2.0       # ... and inlier fractions within 2 percentage points = a tie
+  inlier_m: 0.02            # a point within 2 cm of the BIM counts as an inlier
+  # ASSUMPTION (stated in the report): BIM +x runs from the west end to the east
+  # end. Used with the scan tile names (west/east) to break a tie. Replace with
+  # control points / georeferencing when available.
+  bim_x_direction: west_to_east
+
+realignment:
+  icp_schedule_m: [0.3, 0.1, 0.05, 0.02]   # coarse-to-fine, generic
+  icp_max_iter: 80
+  reweight_passes: 3
+  reweight_mad_multiplier: 3.0   # standard outlier-rejection convention
+
+surface_types:
+  horizontal_normal_z: 0.7   # |normal.z| above this = horizontal surface
+  vertical_normal_z: 0.3     # |normal.z| below this = vertical surface
+
+coverage:
+  min_points: 30             # generic statistical minimum for a trustworthy median
+  min_stations: 2            # a single-station view can't be cross-checked
+
+support_movement:
+  min_movement_mm: 5.0       # user-specified materiality floor: a support's
+                              # bootstrap CI must exclude zero AND the median
+                              # itself must exceed this to be called "moved" --
+                              # a statistically-detectable sub-5mm wobble isn't
+                              # a real finding for a bridge support
+
+rough_surface:
+  voxel_m: 0.25              # same cell size as the local-defect pass
+  min_dropped_fraction: 0.5  # a voxel where most points failed the per-point
+                              # normal check (~10x the overall 4.8% drop rate)
+  edge_elongation: 4.0       # patch length/width above this = a thin band,
+                              # typical of a sharp edge (normals mix two faces)
+  edge_distance_m: 0.15      # patch centre this close to a sharp BIM edge
+                              # (faces meeting at > 45 deg, or an open edge)
+                              # = "at BIM edge": scan normals there mix two
+                              # faces, so rejection there is the expected artefact
+
+sag:
+  moving_median_window_m: 2.0  # user-specified window for the deck-profile
+                              # moving median (replaces spline/quadratic
+                              # fitting entirely -- a moving median of real
+                              # data can't ring or oscillate the way a
+                              # parametric fit can)
+
+plane_fit:
+  max_flatness_ratio: 0.25   # PCA plane-normal is only trustworthy when the point
+                              # cloud is clearly plate-shaped: smallest eigenvalue
+                              # must be well below the middle one. A line-like or
+                              # narrow/elongated cluster has its two smallest
+                              # eigenvalues close together, so the "normal" pick
+                              # between them is arbitrary noise, not geometry.
+  max_tilt_disagreement_deg: 45  # if the PCA-fitted plane normal disagrees with
+                              # the component's own mean matched BIM normal by
+                              # more than this, the disagreement itself is
+                              # evidence of a face-matching problem (points
+                              # landed on the wrong face of their own component),
+                              # not real physical tilt -- no real bridge member
+                              # tilts anywhere near this much while everything
+                              # else reads single-digit mm.

@@ -1,0 +1,24 @@
+component,element_type,candidate_type,n_cells,area_m2,x,y,z,residual_mm,direction,n_stations,flange_noise_mm,threshold_mm
+girder_1_bf,girder,flange residual,4,0.25,24.4,-4.39,5.7,16.5,higher than deck movement,4,2.65,10.6
+girder_1_bf,girder,flange residual,6,0.375,26.78,-4.38,5.7,16.4,higher than deck movement,6,2.65,10.6
+girder_1_bf,girder,flange points lost (beyond matching margin),1,0.5,-0.5,-4.4,5.7,-12.0,lost points sit below the expected underside,6,2.65,0.511
+girder_1_bf,girder,flange points lost (beyond matching margin),1,0.5,25.5,-4.4,5.7,69.8,lost points sit above the expected underside,7,2.65,0.875
+girder_1_bf,girder,flange points lost (beyond matching margin),1,0.5,42.5,-4.4,5.7,27.1,lost points sit above the expected underside,5,2.65,0.187
+girder_1_bf,girder,flange points lost (beyond matching margin),1,0.5,60.5,-4.4,5.7,-7.5,lost points sit below the expected underside,6,2.65,0.5
+girder_2_bf,girder,flange points lost (beyond matching margin),1,0.5,-0.5,-2.2,5.7,4.7,lost points sit above the expected underside,6,2.37,0.624
+girder_2_bf,girder,flange points lost (beyond matching margin),1,0.5,17.5,-2.2,5.7,1.9,lost points sit above the expected underside,7,2.37,0.158
+girder_2_bf,girder,flange points lost (beyond matching margin),4,2.0,44.0,-2.2,5.7,25.2,lost points sit above the expected underside,5,2.37,0.205
+girder_2_bf,girder,flange points lost (beyond matching margin),1,0.5,48.5,-2.2,5.7,25.4,lost points sit above the expected underside,3,2.37,0.161
+girder_2_bf,girder,flange points lost (beyond matching margin),1,0.5,60.5,-2.2,5.7,-8.3,lost points sit below the expected underside,6,2.37,0.675
+girder_3_bf,girder,flange residual,3,0.188,9.87,-0.25,5.7,16.4,higher than deck movement,2,2.66,10.6
+girder_3_bf,girder,flange residual,1,0.062,11.63,-0.25,5.7,12.8,higher than deck movement,2,2.66,10.6
+girder_3_bf,girder,flange residual,1,0.062,13.83,-0.25,5.7,11.0,higher than deck movement,2,2.66,10.6
+girder_3_bf,girder,flange residual,3,0.188,38.39,0.25,5.7,11.4,higher than deck movement,2,2.66,10.6
+girder_3_bf,girder,flange points lost (beyond matching margin),1,0.5,-0.5,0.0,5.7,2.5,lost points sit above the expected underside,7,2.66,0.593
+girder_3_bf,girder,flange points lost (beyond matching margin),1,0.5,42.5,0.0,5.7,24.4,lost points sit above the expected underside,6,2.66,0.208
+girder_3_bf,girder,flange points lost (beyond matching margin),1,0.5,60.5,0.0,5.7,2.0,lost points sit above the expected underside,7,2.66,0.633
+girder_4_bf,girder,flange points lost (beyond matching margin),1,0.5,-0.5,2.2,5.7,4.7,lost points sit above the expected underside,6,2.87,0.526
+girder_4_bf,girder,flange points lost (beyond matching margin),1,0.5,60.5,2.2,5.7,-1.8,lost points sit below the expected underside,4,2.87,0.636
+girder_5_bf,girder,flange points lost (beyond matching margin),1,0.5,-0.5,4.4,5.7,-0.0,lost points sit below the expected underside,7,3.44,0.53
+girder_5_bf,girder,flange points lost (beyond matching margin),1,0.5,17.5,4.4,5.7,15.0,lost points sit above the expected underside,7,3.44,0.225
+girder_5_bf,girder,flange points lost (beyond matching margin),1,0.5,60.5,4.4,5.7,-9.0,lost points sit below the expected underside,6,3.44,0.507
